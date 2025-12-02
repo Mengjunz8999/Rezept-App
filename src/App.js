@@ -9,7 +9,7 @@ import "@fontsource/happy-monkey";
 function App() {
     return (
         <BrowserRouter>
-            <Nav /> {/* <-- добавляем Navbar здесь, вне Routes */}
+            <Nav />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/meal/:id" element={<MealPage />} />
